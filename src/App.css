@@ -1,0 +1,128 @@
+body{
+  background-color: #1b2b45;
+}
+div{
+  color: #fff;
+}
+.container{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-bottom: 20px;
+  
+}
+
+.catty{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+ 
+}
+
+.react-confirm-alert-overlay {
+  background: #1b2b45;
+}
+.petty{
+size-adjust: auto;
+}
+
+.button{
+  padding: 6px 40px;
+  background-color: #1b2b45;
+  border-radius: 5px;
+  color: #fff;
+  border: 2px solid #0bd8e2; float:inline-start;
+}
+.button:hover {
+  background-color: #1cb1cf; /* Green */
+  color: rgb(0, 0, 0);
+}
+.Searchbutton {
+  padding: 6px;
+  padding-left:80px;
+  padding-right: 50px;
+  border-radius: 5px;
+}
+.Search{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.button.reload{
+  padding: 0.8px 20px;
+}
+
+.image{
+  padding-bottom: 25px;
+}
+.y{
+  padding-left: 130px;
+  padding-bottom:30px;
+}
+.x{
+  padding-bottom: 30px;
+}
+
+.App {
+  text-align: center;
+}
+
+.crud{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.buttoncrud{
+  padding: 6px 60px;
+  background-color: #1b2b45;
+  border-radius: 5px;
+  color: #fff;
+  border: 2px solid #0bd8e2; 
+}
+.buttoncrud:hover {
+  background-color: #1cb1cf; /* Green */
+  color: rgb(0, 0, 0);
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.main-footer{
+  color: white;
+  background-color: #1b2b45;
+  padding-top: 0.5cm;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  justify-content: center;
+  align-items : center;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
